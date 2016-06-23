@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Dashboard.scss'
+import R from 'ramda';
 
 const DealsTable = (ds) => (
   <div className="deals">
@@ -30,7 +31,7 @@ const BidsTable = (bs, kind, highlightBids) => {
       </tr>
       </thead>
       <tbody>
-      {bs.map(b => {
+      {R.pipe(R.sortBy(R.path(['bid', 'price'])), kind === 'sell' ? R.identity : R.reverse)(bs).map(b => {
         const highlighted = (e) => <div className={highlightBids[b.id] ? classes.highlighted : ''}>{e}</div>;
         return <tr key={b.id}>
           <td className={classes['table-td']}>{kind === 'sell' ? highlighted(b.bid.qty) : b.bid.price}</td>
