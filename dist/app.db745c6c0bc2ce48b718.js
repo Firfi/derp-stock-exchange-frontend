@@ -32282,7 +32282,7 @@ webpackJsonp([0],[
 	  };
 	}
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, "?path=http://derp-stock-exchange-frontend.apps.firfi.com:undefined/__webpack_hmr", __webpack_require__(546)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, "?path=http://derp-stock-exchange-frontend.apps.firfi.com:80/__webpack_hmr", __webpack_require__(546)(module)))
 
 /***/ },
 /* 716 */
@@ -33391,4 +33391,4 @@ webpackJsonp([0],[
 
 /***/ }
 ]);
-//# sourceMappingURL=app.e1888afc90d6bc71d415.js.map
+//# sourceMappingURL=app.db745c6c0bc2ce48b718.js.map

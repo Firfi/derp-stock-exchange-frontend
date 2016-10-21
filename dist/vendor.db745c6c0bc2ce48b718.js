@@ -88,7 +88,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "e1888afc90d6bc71d415"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "db745c6c0bc2ce48b718"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -623,7 +623,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "http://derp-stock-exchange-frontend.apps.firfi.com:undefined/";
+/******/ 	__webpack_require__.p = "http://derp-stock-exchange-frontend.apps.firfi.com:80/";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -12623,4 +12623,4 @@
 /***/ }
 
 /******/ });
-//# sourceMappingURL=vendor.e1888afc90d6bc71d415.js.map
+//# sourceMappingURL=vendor.db745c6c0bc2ce48b718.js.map
