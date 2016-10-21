@@ -27,7 +27,6 @@ const config = {
   // Server Configuration
   // ----------------------------------
   server_host : 'derp-stock-exchange-frontend.apps.firfi.com', // use string 'localhost' to prevent exposure on local network
-  server_port : 80,
 
   // ----------------------------------
   // Compiler Configuration
